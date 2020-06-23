@@ -1,0 +1,187 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled",
+      "provenance": [],
+      "authorship_tag": "ABX9TyOezOAWso1LTJHInI481IH6",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Aswini480/Assignment--2/blob/master/assignment%204\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "a1Qrc8_6_PR3",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 68
+        },
+        "outputId": "4ce88bf1-ce67-420f-c165-91841c04b5d4"
+      },
+      "source": [
+        " # add two numbers\n",
+        "a=int(input('Enter a number'))\n",
+        "b=int(input('Enter a number'))\n",
+        "c=a+b\n",
+        "print(c)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter a number10\n",
+            "Enter a number5\n",
+            "15\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "XAQEMX69_l-Z",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 51
+        },
+        "outputId": "730b0b75-0934-49c1-d661-87b72f2f742e"
+      },
+      "source": [
+        "#input name of user\n",
+        "a=('Hello')\n",
+        "b=input('Enter your name')\n",
+        "print(a,b)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter your nameAshu\n",
+            "Hello Ashu\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "x0sOPMKc_y45",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 68
+        },
+        "outputId": "aee3f403-a1aa-4941-a078-f6afd5e02570"
+      },
+      "source": [
+        " #input to prompt hours\n",
+        "hours=float(input('Enter the hours'))\n",
+        "rate= float(input('Enter the rate'))\n",
+        "pay=hours*rate\n",
+        "print('The amount to be payed is %2f'%pay)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter the hours35\n",
+            "Enter the rate2.75\n",
+            "The amount to be payed is 96.250000\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "Qk8c-7BG_4PC",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 85
+        },
+        "outputId": "ee532f8a-7fb6-4b0f-dcf5-4083c29fe1e5"
+      },
+      "source": [
+        "#checking expression \n",
+        "width=17\n",
+        "height=12.0\n",
+        "a=width//2\n",
+        "b=width//2.0\n",
+        "c=height/3\n",
+        "d=1+2*5\n",
+        "print(a)\n",
+        "print(b)\n",
+        "print(c)\n",
+        "print(d)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "8\n",
+            "8.0\n",
+            "4.0\n",
+            "11\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "fTdK9Bw-Ala0",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 54
+        },
+        "outputId": "0db61ba7-a235-4ec8-e155-83a3e863ed1e"
+      },
+      "source": [
+        " #change this value for a different result\n",
+        "celsius = 37.5\n",
+        " \n",
+        "# calculate fahrenheit\n",
+        "fahrenheit = (celsius * 1.8) + 32\n",
+        "print('%0.1f degree Celsius is equal to %0.1f degree Fahrenheit' %(celsius,fahrenheit))"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "37.5 degree Celsius is equal to 99.5 degree Fahrenheit\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
